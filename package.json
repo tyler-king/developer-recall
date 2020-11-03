@@ -1,0 +1,9 @@
+{
+  "name":"developer-recall",
+  "scripts":{
+   "pkg":"pkg src/main.js --out-path bin"
+  },
+  "pkg": {
+    "assets": ["**/notes.json"]
+  }
+}
